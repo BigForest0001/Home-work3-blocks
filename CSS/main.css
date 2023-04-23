@@ -35,12 +35,14 @@ body {
 .current .link {
     color: #4D5AE5;
 }
-.page-header {
-  width: 150px;
 
+/*header block*/
+.page-header {
+  width: 1440px;
+  height: 72;
   border: 5px solid #f44336;
   padding: 30px;
-  margin: 40px;
+  margin: 0px;
   background-color: #ffeb3b;
 }
 
@@ -54,6 +56,14 @@ body {
     letter-spacing: 0.02em;
 }
 
+.hero-block {
+    width: 1440px;
+    height: 600;
+    border: 5px solid #f44336;
+    padding: 30px;
+    margin: 40px;
+    background-color: #ffeb3b;
+}
 
 /*Section Benefits Style*/
 .section-title {
