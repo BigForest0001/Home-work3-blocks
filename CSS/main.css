@@ -52,13 +52,24 @@ body {
 .hero {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
 .order-button {
-    padding-left: 636px;
-    padding-right: 636px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-color: #4D5AE5;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 636px;
+    margin-right: 636px;
+    margin-top: 48px;
+    margin-bottom: 188px;
 }
 
 .hero-block {
@@ -71,6 +82,7 @@ body {
     padding-bottom: 188px;
     margin: 0px;
     background-color: #ffeb3b;
+    align-content: center;
 }
 
 /*Section Benefits Style*/
