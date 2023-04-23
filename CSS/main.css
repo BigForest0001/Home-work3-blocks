@@ -35,6 +35,14 @@ body {
 .current .link {
     color: #4D5AE5;
 }
+.page-header {
+  width: 150px;
+
+  border: 5px solid #f44336;
+  padding: 30px;
+  margin: 40px;
+  background-color: #ffeb3b;
+}
 
 
 /*Hero style*/
