@@ -1,0 +1,71 @@
+body {
+    background-color: #FFFFFF;
+}
+/*logo style*/
+
+.logo span {
+    color: #4D5AE5
+    ;
+}
+.logo {
+    text-decoration: none;
+}
+
+/*header list*/
+.list {
+    list-style: none;
+}
+.site-nav a {
+    text-decoration: none;
+}
+.menu-nav a {
+    text-decoration: none;
+    color: #434455;
+}
+
+.site-nav .link:hover,
+ .site-nav .link:focus {
+    color: black;
+}
+
+.menu-nav .link:hover, 
+.menu-nav .link:focus {
+    color: black;
+}
+.current .link {
+    color: #4D5AE5;
+}
+
+
+/*Hero style*/
+.hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+
+/*Section Benefits Style*/
+.section-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.nav-benefits p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*section H2 headers*/
+.header-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
