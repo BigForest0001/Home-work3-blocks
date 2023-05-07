@@ -128,3 +128,15 @@ body {
 
 
 }
+
+/*section OUR TEAM*/
+.list h4 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    border:#f44336 5px solid;
+}
+
+.list p {
+    margin-bottom: 32px;
+    border:#f44336 5px solid; 
+}
