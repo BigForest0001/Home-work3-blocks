@@ -39,7 +39,6 @@ body {
 /*header block*/
 .page-header {
   width: 1440px;
-  height: 72;
   border: 5px solid #f44336;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
@@ -90,7 +89,20 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
+    width: 264px;
+    height: 24p;
+    margin-bottom: 8px;
+    border:#f44336 5px solid;
+
+
 }
+.section p {
+    width: 264px;
+    height: 72px;
+    border:#f44336 5px solid;
+
+}
+
 
 .nav-benefits p {
     font-weight: 400;
