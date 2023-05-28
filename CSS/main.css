@@ -12,15 +12,48 @@ body {
 }
 
 /*header list*/
+.main-nav {
+    display: flex;
+        
+}
+.main-nav {
+    margin-left: 76px; 
+}
+
+
+.main-nav li {
+    margin-right: 40px;
+    background-color: #4D5AE5;
+    border: tomato solid 4px; 
+    
+}
+
+.site-nav .item:last-child {
+    margin-right: 0;
+}
+ 
+
+
 .list {
     list-style: none;
 }
 .site-nav a {
     text-decoration: none;
+    
 }
 .menu-nav a {
     text-decoration: none;
     color: #434455;
+}
+
+.menu-nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: 156px;
+}
+
+.menu-nav .link  {
+    margin-left: 40px;
 }
 
 .site-nav .link:hover,
@@ -35,6 +68,13 @@ body {
 .current .link {
     color: #4D5AE5;
 }
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+
 
 /*header block*/
 .page-header {
